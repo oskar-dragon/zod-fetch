@@ -1,0 +1,35 @@
+{
+  "name": "@herrschd/zod-fetch",
+  "version": "0.0.5",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "dev:watch": "tsx watch src/index.ts",
+    "build": "tsup src/index.ts",
+    "typescript:check": "tsc --noEmit",
+    "test:watch": "vitest",
+    "test": "vitest run",
+    "ci": "pnpm run typescript:check && pnpm run test && pnpm run build",
+    "release": "pnpm run ci && changeset publish"
+  },
+  "keywords": [],
+  "author": "Oskar Dragon",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/node": "^20.10.5",
+    "prettier": "^3.1.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "dependencies": {
+    "tsx": "^4.6.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
