@@ -17,7 +17,7 @@
   },
   "keywords": [],
   "author": "Oskar Dragon",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@types/node": "^20.10.5",
