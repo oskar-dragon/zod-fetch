@@ -1,5 +1,11 @@
 # @herrschd/zod-fetch
 
+## 0.0.6
+
+### Patch Changes
+
+- 3fe24e8: Fix issue with missing npmignore and lack of dist in the package
+
 ## 0.0.5
 
 ### Patch Changes
