@@ -1,5 +1,11 @@
 # @herrschd/zod-fetch
 
+## 1.0.0
+
+### Major Changes
+
+- 351d2dd: Add tests and release first v
+
 ## 0.0.6
 
 ### Patch Changes
